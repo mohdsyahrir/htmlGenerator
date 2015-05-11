@@ -122,7 +122,7 @@ public class HomeController {
 		Pattern pattern3 = Pattern.compile("<TABLE CLASS="+"\"h2\""+">(.*?)</TABLE>");
 		Pattern pattern2 = Pattern.compile("<bean:message key="+"\"(.*?)\"/>");
 
-		try (BufferedReader br = new BufferedReader(new FileReader("C:\\mcsgenerator\\mcsjsp\\"+name+"")))
+		try (BufferedReader br = new BufferedReader(new FileReader("C:\\mcsgenerator\\mcsjsp\\"+name+"")))////dfgdfg
 		{
 			String sCurrentLine;
 			while ((sCurrentLine = br.readLine()) != null) {
